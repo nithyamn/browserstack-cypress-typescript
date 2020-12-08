@@ -1,0 +1,60 @@
+{
+  "auth": {
+    "username": "<username>",
+    "access_key": "<accesskey>"
+  },
+  "browsers": [
+    {
+      "browser": "chrome",
+      "os": "Windows 10",
+      "versions": [
+        "81"
+      ]
+    },
+    {
+      "browser": "firefox",
+      "os": "Windows 10",
+      "versions": [
+        "80"
+      ]
+    },
+    {
+      "browser": "edge",
+      "os": "OS X Mojave",
+      "versions": [
+        "80"
+      ]
+    },
+    {
+      "browser": "chrome",
+      "os": "OS X Catalina",
+      "versions": [
+        "86"
+      ]
+    }
+  ],
+  "run_settings": {
+    "cypress_config_file": "./cypress.qa.json",
+    "project_name": "RBFCU POC",
+    "build_name": "Cypress TypeScript - cypress.qa",
+    "exclude": [],
+    "parallels": "4",
+    "npm_dependencies": {
+      "cypress": "4.12.0",
+      "typescript": "4.1.2",
+      "webpack": "4.41.2",
+      "@nrwl/cypress": "8.2.0",
+      "ts-loader": "^8.0.7",
+      "@cypress/webpack-preprocessor": "^5.4.8",
+      "@types/node": "8.9.4",
+      "@types/chance": "1.1.0",
+      "chance": "^1.1.7"
+    },
+    "package_config_options": {}
+  },
+  "connection_settings": {
+    "local": false,
+    "local_identifier": null
+  },
+  "disable_usage_reporting": false
+}
