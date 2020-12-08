@@ -1,3 +1,4 @@
 # browserstack-cypress-typescript
 
-Execute -> browserstack-cypress run
+* Add your BrowserStack credentials to "browserstack.json" file.
+* Execute -> browserstack-cypress run
